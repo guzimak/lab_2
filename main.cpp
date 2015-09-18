@@ -6,13 +6,13 @@ int main()
 {
     cout  << "Input X, Y: ";
     int x,y;
-    cin >> x; cin >> y;
-    int s,r;
+    cin >> x;
+    cin >> y;
+    int s,r,p;
     s=x+y;
     r=x-y;
-    cout << "Result s = ";
-    cout << s;
-    cout << "\n";
-    cout << "Result r = ";
-    cout << r;
+    p=x*y;
+    cout << "Result s = " << s << '\n'
+         << "Result r = " << r << '\n'
+         << "Result p = " << p << '\n';
 }
