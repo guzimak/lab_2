@@ -4,9 +4,12 @@ int main()
     cout  << "Input X, Y: ";
     int x,y;
     cin >> x; cin >> y;
-    int s;
+    int s,r;
     s=x+y;
-    cout << "Result ";
+    r=x-y;
+    cout << "Result s = ";
     cout << s;
-
+    cout << "\n";
+    cout << "Result r = ";
+    cout << r;
 }
